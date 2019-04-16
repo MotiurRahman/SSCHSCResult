@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">SSC HSC Result</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_more">More Apps</string>
+    <string name="action_ratings">Feedback Please</string>
+    <string name="action_update">Update this App</string>
+    <string name="action_close">Exit App</string>
+    <string name="home">Home</string>
+    <string name="share">Share App</string>
+
+    <!--<string name="home">First page</string>-->
+    <string name="result">বাংলাদেশের সকল পরীক্ষাসমূহের ফলাফল</string>
+    <string name="govtResult">বাংলাদেশের সরকারি চাকুরির পরীক্ষাসমূহের ফলাফল</string>
+    <string name="bcsResult">বিসিএস পরীক্ষা</string>
+    <string name="nonCaderResult">নন-ক্যাডার পরীক্ষা</string>
+    <string name="devisionResult">বিভাগীয় পরীক্ষা</string>
+    <string name="seniorResult">সিনিয়র স্কেল পরীক্ষা</string>
+    <string name="nonCaderResultSystem">নন-ক্যাডার পরীক্ষা পদ্ধতি</string>
+
+
+    <!--<string name="">Govt job result page</string>-->
+    <string name="smsResult">প্রাইমারী রেজাল্ট মার্কসীট সহ</string>
+    <string name="primaryResult1">প্রাইমারী রেজাল্ট মার্কসীট সহ</string>
+    <string name="primaryResult2">প্রাইমারী রেজাল্ট (সার্ভার ২)</string>
+    <string name="primaryResult3">প্রাইমারী রেজাল্ট PDF ভার্শন</string>
+    <string name="seconderyResult1">মাধ্যমিক ও  উচ্চমাধ্যমিক রেজাল্ট মার্কসীট সহ</string>
+    <string name="seconderyResult2">মাধ্যমিক ও  উচ্চমাধ্যমিক রেজাল্ট (সার্ভার ২)</string>
+    <string name="nuResult">ডিগ্ৰী, অনার্স, মাস্টার্স রেজাল্ট</string>
+    <string name="govtResultMain">সরকারি চাকরির ফলাফল</string>
+
+    <string name="nu_all_AdmissionResult">জাতীয় বিশ্ববিদ্যালয়ের সকল ভর্তি পরীক্ষার ফলাফল</string>
+    <string name="nu_honours_AdmissionResult">Honours Admission Test Results</string>
+    <string name="degree_admission">Degree Admission Test Results</string>
+    <string name="masters_preliminary">Masters (Preliminary) Admission Results</string>
+    <string name="masters_pro">Masters (Professional) Admission Results</string>
+    <string name="masters_Regular">Masters (Regular) Admission Results</string>
+
+
+    <string name="bteb_result">BTEB Diploma Results</string>
+
+    <string name="bou_final">BOU Final Exam Results (All Class)</string>
+    <string name="bou_details">BOU Details, Yesr-wise and semester-wise Result</string>
+
+    <string name="polytechnic_admission">Polytechnic Admission</string>
+    <string name="dhakaPolytechnic_result"> Dhaka Polytechnic Result</string>
+
+    <string name="ntrca">NTRCA Teacher Registration Results</string>
+    <string name="ntrca2">NTRCA Teacher Registration For ALL</string>
+    <string name="bcps">BCPS Final Exam Results</string>
+    <string name="admissionResult">All University Admission Result</string>
+
+
+    <string name="ok">OK</string>
+
+
+    <!--<string name="">Govt job result page</string>-->
+    <string name="bcsExamSystem">বিসিএস পরীক্ষা পদ্ধতি</string>
+    <string name="noncaderExamSystem">নন-ক্যাডার পরীক্ষা পদ্ধতি </string>
+    <string name="sms_result">মেসেজ দিয়ে রেজাল্ট জানুন</string>
+    <string name="review_result">ফলাফল পুনঃ মূল্যায়ণ</string>
+
+
+    <string name="examRoutineSSC">SSC Exam Routine</string>
+    <string name="examRoutineHSC">HSC Exam Routine</string>
+
+
+    <!--<string name="admission">Admission Result</string>-->
+    <string name="buet">BUET Admission Result</string>
+    <string name="medical">Medical Admission Result</string>
+    <string name="du">DU Admission Result</string>
+    <string name="nuAdmission">National University Admission</string>
+    <string name="all_uv_admission">All University Admission</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-4951262838901192/6526176874</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-4951262838901192/5786088074</string>
+
+    <string name="App_id">ca-app-pub-4951262838901192~9535483590</string>
+
+
+    <!--<string name="action_ratings">Admob key</string>-->
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>-->
+
+
+</resources>

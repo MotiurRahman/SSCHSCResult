@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adView"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/buttonshape"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:padding="5sp"
+                android:shadowColor="#A8A8A8"
+
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="@string/result"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="40sp"
+                android:paddingRight="40sp">
+
+
+                <Button
+                    android:id="@+id/seconderyResult1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25sp"
+                    android:background="@drawable/buttonshape"
+                    android:fontFamily="serif"
+
+                    android:onClick="seconderyResult1"
+                    android:padding="5sp"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/seconderyResult1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/seconderyResult2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25sp"
+                    android:background="@drawable/buttonshape"
+                    android:fontFamily="serif"
+                    android:onClick="seconderyResult2"
+                    android:padding="5sp"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/seconderyResult2"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/primaryResult1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25sp"
+                    android:background="@drawable/buttonshape"
+                    android:fontFamily="serif"
+                    android:onClick="primaryResult1"
+                    android:padding="5sp"
+
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/primaryResult1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/primaryResult2"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25sp"
+                    android:background="@drawable/buttonshape"
+                    android:fontFamily="serif"
+                    android:onClick="primaryResult2"
+                    android:padding="5sp"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/primaryResult2"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/primaryResult3"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25sp"
+                    android:background="@drawable/buttonshape"
+                    android:fontFamily="serif"
+                    android:onClick="primaryResult3"
+                    android:padding="5sp"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/primaryResult3"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/nuReslt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25sp"
+                    android:background="@drawable/buttonshape"
+                    android:fontFamily="serif"
+                    android:onClick="nuResult"
+                    android:padding="5sp"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/nuResult"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <Button
+
+                    android:id="@+id/govtResult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25sp"
+                    android:background="@drawable/buttonshape"
+                    android:fontFamily="serif"
+                    android:onClick="govtResult"
+                    android:padding="5sp"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/govtResultMain"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/nu_all_AdmissionResult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25sp"
+                    android:background="@drawable/buttonshape"
+                    android:fontFamily="serif"
+                    android:onClick="nu_all_AdmissionResult"
+                    android:padding="5sp"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/nu_all_AdmissionResult"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/bteb_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25sp"
+                    android:background="@drawable/buttonshape"
+                    android:fontFamily="serif"
+                    android:onClick="bteb_result"
+                    android:padding="5sp"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/bteb_result"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/bou_final"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25sp"
+                    android:background="@drawable/buttonshape"
+                    android:fontFamily="serif"
+                    android:onClick="bou_final"
+                    android:padding="5sp"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/bou_final"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/bou_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25sp"
+                    android:background="@drawable/buttonshape"
+                    android:fontFamily="serif"
+                    android:onClick="bou_details"
+                    android:padding="5sp"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/bou_details"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/polytechnic_admission"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25sp"
+                    android:background="@drawable/buttonshape"
+                    android:fontFamily="serif"
+                    android:onClick="polytechnic_admission"
+                    android:padding="5sp"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/polytechnic_admission"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/dhakaPolytechnic_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25sp"
+                    android:background="@drawable/buttonshape"
+                    android:fontFamily="serif"
+                    android:onClick="dhakaPolytechnic_result"
+                    android:padding="5sp"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/dhakaPolytechnic_result"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/ntrca"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25sp"
+                    android:background="@drawable/buttonshape"
+                    android:fontFamily="serif"
+                    android:onClick="NTRCA"
+                    android:padding="5sp"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/ntrca"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/ntrca2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25sp"
+                    android:background="@drawable/buttonshape"
+                    android:fontFamily="serif"
+                    android:onClick="ntrca2"
+                    android:padding="5sp"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/ntrca2"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/bcps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25sp"
+                    android:background="@drawable/buttonshape"
+                    android:fontFamily="serif"
+                    android:onClick="BCPS"
+                    android:padding="5sp"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/bcps"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+
+
+                <Button
+                    android:id="@+id/publicResult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25sp"
+                    android:background="@drawable/buttonshape"
+                    android:fontFamily="serif"
+                    android:onClick="publicResult"
+                    android:padding="5sp"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/admissionResult"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- view for AdMob Banner Ad -->
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+
+
+</RelativeLayout>

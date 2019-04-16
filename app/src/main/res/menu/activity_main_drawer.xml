@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Result via SMS">
+        <menu>
+            <item
+                android:id="@+id/sms_result"
+                android:icon="@mipmap/baseline_favorite_black_18dp"
+                android:title="@string/sms_result" />
+            <item
+                android:id="@+id/review_result"
+                android:icon="@mipmap/baseline_favorite_black_18dp"
+                android:title="@string/review_result" />
+
+
+        </menu>
+    </item>
+
+
+
+    <item android:title="Exam Routine">
+        <menu>
+            <item
+                android:id="@+id/examRoutineSSC"
+                android:icon="@mipmap/baseline_extension_black_18dp"
+                android:title="@string/examRoutineSSC" />
+            <item
+                android:id="@+id/examRoutineHSC"
+                android:icon="@mipmap/baseline_extension_black_18dp"
+                android:title="@string/examRoutineHSC" />
+
+        </menu>
+
+    </item>
+
+
+    <item android:title="Admission Result">
+        <menu>
+            <item
+                android:id="@+id/Buet"
+                android:icon="@mipmap/baseline_grade_black_18dp"
+                android:title="@string/buet" />
+            <item
+                android:id="@+id/medical"
+                android:icon="@mipmap/baseline_grade_black_18dp"
+                android:title="@string/medical" />
+
+            <item
+                android:id="@+id/Du"
+                android:icon="@mipmap/baseline_grade_black_18dp"
+                android:title="@string/du" />
+
+        </menu>
+    </item>
+
+
+
+    <item android:title="Admission">
+        <menu>
+            <item
+                android:id="@+id/nuAdmission"
+                android:icon="@mipmap/baseline_grade_black_18dp"
+                android:title="@string/nuAdmission" />
+
+
+
+        </menu>
+    </item>
+</menu>
